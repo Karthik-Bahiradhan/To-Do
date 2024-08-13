@@ -6,6 +6,8 @@ on:
       - main
 
 jobs:
+  call-workflow-in-local-repo:
+    uses: ./.github/workflows/s3.yml
   # Build Job
   build:
     runs-on: ubuntu-latest

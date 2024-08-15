@@ -21,7 +21,7 @@ function TodoInput({ todos, setTodos }) {
   return (
     <div className="todo-input-wrapper">
       <input
-        label="Add New Todo"
+        label="Add Todo"
         value={todo}
         onChange={(event) => {
           return setTodo(event.target.value);
